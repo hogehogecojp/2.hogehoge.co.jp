@@ -17,8 +17,8 @@
 工事中バー、電光掲示板、アクセスカウンター、キリ番、相互リンクバナー、BGM 再生ボタンに至るまで、
 「あの頃」の要素が外部ライブラリなしで再現されています。
 
-[ライセンス](https://amix-design.com/asoboad/tools/d-dasaweb/license.html)上、クレジット表記は必須ではなく
-「削除しても構いません」と明記されていますが、素敵なツールへの敬意として記載を残しています。
+[公式ライセンス情報](https://amix-design.com/asoboad/tools/d-dasaweb/license.html)では、生成された HTML の
+ツール表記は削除してもよいと案内されていますが、素敵なツールへの敬意として記載を残しています。
 
 生成された HTML 内のコメントおよび `<meta name="generator">` にも、ツール情報をそのまま残しています。
 
@@ -67,6 +67,14 @@ npx wrangler deploy
 > **注意**: CSP の土台が `default-src 'none'` のため、外部の JS や Web フォントを追加すると
 > 読み込みがブロックされます。その場合は `public/_headers` の CSP も併せて更新してください。
 
-## ライセンス
+## 権利・利用条件
 
-ページの内容（テキスト・画像・リンク）の権利は株式会社hogehogeに帰属します。
+このリポジトリ全体に、MIT License などのオープンソースライセンスは付与していません。
+
+- HTML・CSS・JavaScriptの一部は、トミナガハルキさん制作の
+  [ダサウェブ★メーカー](https://amix-design.com/asoboad/tools/d-dasaweb/)から生成されたものです。
+  生成物や関連素材の取り扱いについては、同サービスの
+  [公式ライセンス情報](https://amix-design.com/asoboad/tools/d-dasaweb/license.html)および
+  [利用規約](https://amix-design.com/term/tools)をご確認ください。
+
+このリポジトリの内容を転載・再配布・商用利用する場合は、各権利者の利用条件をご確認ください。
