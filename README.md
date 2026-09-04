@@ -76,8 +76,5 @@ npx wrangler deploy
   生成物や関連素材の取り扱いについては、同サービスの
   [公式ライセンス情報](https://amix-design.com/asoboad/tools/d-dasaweb/license.html)および
   [利用規約](https://amix-design.com/term/tools)をご確認ください。
-- 当社が用意した文章・写真・リンクなどのコンテンツに関する権利は、株式会社hogehogeまたは
-  それぞれの権利者に帰属します。
-- サービス名、会社名、商標などに関する権利は、それぞれの権利者に帰属します。
 
 このリポジトリの内容を転載・再配布・商用利用する場合は、各権利者の利用条件をご確認ください。
