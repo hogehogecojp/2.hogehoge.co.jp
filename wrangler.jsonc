@@ -4,5 +4,11 @@
 	"compatibility_date": "2026-09-04",
 	"assets": {
 		"directory": "./public"
-	}
+	},
+	"routes": [
+		{
+			"pattern": "2.hogehoge.co.jp",
+			"custom_domain": true
+		}
+	]
 }
